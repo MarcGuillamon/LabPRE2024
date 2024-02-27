@@ -19,7 +19,7 @@ def update_arrival(h, m, d):
     (0, 2)
     """
 
-    "esto es una pruba para ver si detecta camios :)"
+    "esto es una prueba para ver si detecta cambios :)"
 
     return (h + ((m + d) // 60)) % 24, (m + d) % 60
 
